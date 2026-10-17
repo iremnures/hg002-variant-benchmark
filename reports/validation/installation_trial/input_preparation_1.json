@@ -1,0 +1,53 @@
+{
+  "started_utc": "2026-10-17T10:48:21.596748+00:00",
+  "status": "PASS",
+  "manifest_sha256": "ee1b662385be0dc634946a8dc6ba96cb0a033086a590ab10aabc01c1e1a685dc",
+  "reference_recipe_sha256": "58a758bae1fccff88ba1b66e4ba1a3b9990aa226e5718cdd39293dce699db06f",
+  "script_sha256": "499db08ef5d2bc335dc3bb94f4501a892959ebb714b6e5610d354b1a9ec4db72",
+  "inputs": [
+    {
+      "id": "deepvariant",
+      "path": "data/callsets/HG002.deepvariant1.0.novaseq30x.grch38.vcf.gz",
+      "sha256": "256792ccde9938549b029629653c478b83a0d3cae8ce84ddc1750fa57749bd1c",
+      "status": "PREPARED_AND_VERIFIED"
+    },
+    {
+      "id": "gatk",
+      "path": "data/callsets/HG002.gatk4.novaseq30x.grch38.vcf.gz",
+      "sha256": "4e7a59f76517825c7211d5180a475c14f2157acf9aac48c84c4d2714292d28c7",
+      "status": "PREPARED_AND_VERIFIED"
+    },
+    {
+      "id": "giab_vcf",
+      "path": "data/benchmark/HG002_GRCh38_v5.0q_smvar.vcf.gz",
+      "sha256": "c7f9d7a4781f1f0a8a42ec54b051d6b95db1935c5e12318bae219740f9c50dc8",
+      "status": "PREPARED_AND_VERIFIED"
+    },
+    {
+      "id": "giab_bed",
+      "path": "data/benchmark/HG002_GRCh38_v5.0q_smvar.benchmark.bed",
+      "sha256": "ef7d898dd421ea357bb9db915894ab3e5c6c1689e36ccf619befda4bbf1cef5b",
+      "status": "PREPARED_AND_VERIFIED"
+    },
+    {
+      "id": "reference_chr20",
+      "path": "data/reference/chr20.GRCh38.fa",
+      "sha256": "197fed2cbb4b9d98bc9b5b6c4576510b2b8d56071c5fd65a62253f356a32f0e4",
+      "status": "PREPARED_AND_VERIFIED"
+    },
+    {
+      "id": "cmrg_coordinates",
+      "path": "data/annotations/HG002_GRCh38_CMRG_coordinates.bed",
+      "sha256": "4b917b24a19b449d17d3aec290c4e0fe93b4a54908eed43ed765a41e404c737a",
+      "status": "PREPARED_AND_VERIFIED"
+    },
+    {
+      "id": "tandem_repeats",
+      "path": "data/stratifications/GRCh38_AllTandemRepeats.bed.gz",
+      "sha256": "ff58710eb3aab81c172f83ac263ab698068b0a4f0d8357d7347ff9a7b8774179",
+      "status": "PREPARED_AND_VERIFIED"
+    }
+  ],
+  "reference_index_status": "PREPARED_AND_VERIFIED",
+  "finished_utc": "2026-10-17T10:53:00.983460+00:00"
+}

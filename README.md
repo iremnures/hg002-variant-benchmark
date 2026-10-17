@@ -90,7 +90,7 @@ was verified by normalized sequence identity rather than FASTA byte identity.
 
 The verified inputs and FASTA index must already exist at the configured
 paths. The recorded benchmark image must also be available locally.
-Recorded input acquisition and reference preparation are implemented. See [setup instructions](docs/setup.md); a fresh-machine environment trial remains pending.
+Recorded input acquisition and reference preparation are implemented. See [setup instructions](docs/setup.md); a same-host isolated installation trial is documented below; a different-machine trial remains untested.
 
 Observed environment: Nextflow 26.10.0, Python 3.14.7, Matplotlib 3.10.9,
 Podman 5.8.4, hap.py v0.3.8-17-gf15de4a and RTG Tools 3.8.1.
@@ -156,11 +156,9 @@ The final uncached run is documented in reports/validation/region_workflow.json.
 [Training-overlap assessment](docs/training_overlap_assessment.md) ·
 [Uncached workflow evidence](docs/workflow_reproducibility.md)
 
-## Remaining release work
+## Remaining portability work
 
-A fresh-machine environment installation and acquisition trial remains
-outstanding. Input preparation logic has offline tests, and the final
-workflow has passed local uncached execution and equivalence validation.
+Installation on a different machine remains untested. The same-host isolated installation trial and its rendering limitation are documented below.
 
 ## Automated tests
 
@@ -184,3 +182,27 @@ Original project code and documentation are available under the
 [MIT license](LICENSE). Third-party data, retained upstream documents
 and external software are outside that license's scope.
 See [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## Isolated installation trial
+
+A separate clone and Python virtual environment were tested on the same
+Fedora host. All seven primary inputs and the FASTA index were prepared
+from the recorded sources. The 16 unit tests passed, and all ten workflow
+tasks completed without cache.
+
+Comparison with the established baseline passed 34 of 35 checks.
+Prepared VCFs, REF checks, benchmark metrics, annotated VCF records,
+per-gene results, region generation and MYT1 tables agreed.
+Exact PNG pixel equality failed.
+
+A controlled experiment used the same plotting script and input tables
+in both Python environments. The system environment reproduced the
+original PNG; the virtual environment reproduced the new PNG.
+FreeType and some dependency versions differed. This establishes an
+environment-associated rendering difference, not one isolated causal
+dependency. The original strict FAIL report is retained.
+
+This trial reused the host's Nextflow and Podman installations and its
+existing benchmark image. It is not a different-machine installation test.
+
+[Trial evidence](reports/validation/installation_trial/summary.json)

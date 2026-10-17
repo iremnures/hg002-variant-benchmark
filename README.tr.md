@@ -142,3 +142,24 @@ Projeye ait özgün kod ve belgeler [MIT lisansı](LICENSE) kapsamındadır.
 Dış kaynaklı veriler, korunan kaynak belgeler ve harici yazılımlar
 bu lisansın kapsamı dışındadır.
 Ayrıntılar için [dış kaynak açıklamalarına](THIRD_PARTY_NOTICES.md) bakın.
+
+## Ayrı kurulum denemesi
+
+Aynı Fedora bilgisayarda ayrı GitHub kopyası ve yeni Python sanal ortamı
+kullanıldı. Yedi temel girdi ve FASTA indeksi kayıtlı kaynaklardan yeniden
+hazırlandı. 16 test geçti; on iş akışı görevi önbelleksiz tamamlandı.
+
+Karşılaştırmanın 35 kontrolünden 34'ü geçti. Hazırlanan VCF'ler,
+referans kontrolleri, benchmark metrikleri, varyant kayıtları, gen bazında
+sonuçlar, bölge üretimi ve MYT1 tabloları eşleşti.
+PNG piksel eşitliği sağlanmadı.
+
+Aynı çizim kodu ve aynı tablolarla yapılan kontrollü denemede eski ortam
+eski PNG'yi, yeni ortam yeni PNG'yi birebir üretti. FreeType ve bazı
+bağımlılıkların sürümleri farklıydı; tek bir bileşen kesin neden olarak
+belirlenmedi. İlk FAIL raporu korundu.
+
+Nextflow, Podman ve mevcut benchmark imajı aynı bilgisayardan kullanıldı.
+Bu deneme, farklı bilgisayarda kurulum testi değildir.
+
+[Deneme kanıtı](reports/validation/installation_trial/summary.json)

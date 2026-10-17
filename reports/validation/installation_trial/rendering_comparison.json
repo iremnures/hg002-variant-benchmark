@@ -1,0 +1,11 @@
+{
+  "experiment": "Same plotting script and input tables; two Python environments",
+  "script_sha256": "5f88e247413ecaf89f7c4541e560fff0be56b95921898dc91416f2916f694441",
+  "input_summary_sha256": "f01bb28ba6c633d7b6ba31ef945c15e75356d3c69de0b89de1ee1222384d3d36",
+  "comparisons": {
+    "system_render_matches_original_baseline": true,
+    "venv_render_matches_fresh_run": true,
+    "system_and_venv_renders_are_equal": false
+  },
+  "original_validation_preserved": true
+}

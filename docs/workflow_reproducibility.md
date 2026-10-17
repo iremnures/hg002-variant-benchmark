@@ -120,3 +120,27 @@ The workflow and configuration hashes below were recorded at validation:
 These measurements are from one local run. Task times are not total
 pipeline wall-clock time. Podman launcher RSS is not established
 whole-container peak memory.
+
+## Isolated installation trial
+
+A separate clone and Python virtual environment were tested on the same
+Fedora host. All seven primary inputs and the FASTA index were prepared
+from the recorded sources. The 16 unit tests passed, and all ten workflow
+tasks completed without cache.
+
+Comparison with the established baseline passed 34 of 35 checks.
+Prepared VCFs, REF checks, benchmark metrics, annotated VCF records,
+per-gene results, region generation and MYT1 tables agreed.
+Exact PNG pixel equality failed.
+
+A controlled experiment used the same plotting script and input tables
+in both Python environments. The system environment reproduced the
+original PNG; the virtual environment reproduced the new PNG.
+FreeType and some dependency versions differed. This establishes an
+environment-associated rendering difference, not one isolated causal
+dependency. The original strict FAIL report is retained.
+
+This trial reused the host's Nextflow and Podman installations and its
+existing benchmark image. It is not a different-machine installation test.
+
+[Trial evidence](../reports/validation/installation_trial/summary.json)

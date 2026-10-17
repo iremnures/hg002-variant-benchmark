@@ -1,0 +1,32 @@
+{
+  "original_system": {
+    "python": "3.14.7",
+    "platform": "Linux-7.2.7-100.fc43.x86_64-x86_64-with-glibc2.42",
+    "packages": {
+      "matplotlib": "3.10.9",
+      "numpy": "2.3.5",
+      "Pillow": "11.3.0",
+      "fonttools": "4.61.0",
+      "contourpy": "1.4.0",
+      "kiwisolver": "1.5.1",
+      "pyparsing": "3.1.2"
+    },
+    "freetype": "2.13.3",
+    "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+  },
+  "isolated_venv": {
+    "python": "3.14.7",
+    "platform": "Linux-7.2.7-100.fc43.x86_64-x86_64-with-glibc2.42",
+    "packages": {
+      "matplotlib": "3.10.9",
+      "numpy": "2.3.5",
+      "Pillow": "11.3.0",
+      "fonttools": "4.67.0",
+      "contourpy": "1.4.0",
+      "kiwisolver": "1.5.1",
+      "pyparsing": "3.3.3"
+    },
+    "freetype": "2.6.1",
+    "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+  }
+}

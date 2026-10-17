@@ -1,0 +1,54 @@
+{
+  "scope": "Separate clone and virtual environment on the same Fedora host",
+  "tested_commit": "a980f10b2c100f491e50772275073bfe8bf83e4f",
+  "workflow_tasks_completed_without_cache": 10,
+  "strict_validation_status": "FAIL",
+  "checks_passed": 34,
+  "checks_total": 35,
+  "failed_check": "PNG pixel equality",
+  "all_other_checks_passed": true,
+  "rendering_control": {
+    "system_render_matches_original_baseline": true,
+    "venv_render_matches_fresh_run": true,
+    "system_and_venv_renders_are_equal": false
+  },
+  "interpretation": "Analysis outputs agree. Exact PNG pixels differ between the two rendering environments. A single causal dependency was not isolated.",
+  "shared_host_tools": [
+    "Nextflow",
+    "Podman",
+    "existing benchmark image"
+  ],
+  "not_tested": "Installation on a different machine or operating system",
+  "exported_evidence": [
+    {
+      "file": "strict_validation.json",
+      "source_sha256": "0d6b6886920d31af6876d75aad4d21f13f2b3603b6122592776721086deb941d",
+      "exported_sha256": "2ff5b2aaed77bc8d95fe528097a5857fb8303d1d75e23eb55024e461c4bcadde",
+      "transformation": "Local home and project paths replaced with placeholders"
+    },
+    {
+      "file": "rendering_comparison.json",
+      "source_sha256": "8fd80b629c331e4d797b50fae2339e7942c04248202c643c5085485108238411",
+      "exported_sha256": "8fd80b629c331e4d797b50fae2339e7942c04248202c643c5085485108238411",
+      "transformation": "Local home and project paths replaced with placeholders"
+    },
+    {
+      "file": "tested_commit.txt",
+      "source_sha256": "07151dc6f09c3e2135e747c4413a0ba60e7a62c6efb219e41ea08913b08fd88e",
+      "exported_sha256": "07151dc6f09c3e2135e747c4413a0ba60e7a62c6efb219e41ea08913b08fd88e",
+      "transformation": "Local home and project paths replaced with placeholders"
+    },
+    {
+      "file": "installed_packages.txt",
+      "source_sha256": "0db8ad38224fd125adccbb99f49c35d294a44fae8731d0991fc249937d042c64",
+      "exported_sha256": "0db8ad38224fd125adccbb99f49c35d294a44fae8731d0991fc249937d042c64",
+      "transformation": "Local home and project paths replaced with placeholders"
+    },
+    {
+      "file": "input_preparation_1.json",
+      "source_sha256": "3eb96f660cccd97f863866bc28b4c8d3fce966c1f497e7a504811ccdcfd50fa1",
+      "exported_sha256": "3eb96f660cccd97f863866bc28b4c8d3fce966c1f497e7a504811ccdcfd50fa1",
+      "transformation": "Local home and project paths replaced with placeholders"
+    }
+  ]
+}
