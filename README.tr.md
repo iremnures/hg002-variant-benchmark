@@ -37,6 +37,12 @@ MYT1'de iki araç da 1–5 bazlık 29 INDEL kaydının 28'ini bulmuştur.
 Uzun kayıtların tamamı tekrarlarla örtüştüğü için uzunluk ve tekrar
 yapısının etkileri birbirinden ayrılamaz.
 
+### Genel karşılaştırma grafiği
+
+![SNP ve INDEL genel karşılaştırma sonuçları](reports/figures/overall_benchmark_metrics.png)
+
+Değerler, yayımlanan sonuç tablolarının PASS özet satırlarından alınmıştır. Karşılaştırma, farklı filtre durumlarına sahip hazır callset'leri ve seçilmiş değerlendirilebilir bölgeleri kapsar.
+
 ![MYT1 INDEL bulma oranı](reports/figures/MYT1_indel_recall_by_context.png)
 
 ## Gen seçimi ve kapsam

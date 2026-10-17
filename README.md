@@ -38,6 +38,12 @@ DeepVariant recovered 5 and GATK recovered 9.
 All long records overlapped repeats, so independent effects of length
 and repeat context cannot be separated.
 
+### Overall benchmark metrics
+
+![Overall SNP and INDEL benchmark metrics](reports/figures/overall_benchmark_metrics.png)
+
+Scores use the PASS summary rows from the curated result tables. The comparison concerns supplied callsets with different filtering states, within the selected evaluable regions.
+
 ![MYT1 INDEL recall](reports/figures/MYT1_indel_recall_by_context.png)
 
 [Detailed MYT1 methods and interpretation](docs/MYT1_context_analysis.md)

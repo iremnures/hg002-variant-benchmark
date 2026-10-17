@@ -1,0 +1,45 @@
+{
+  "script": "scripts/25_plot_overall_metrics.py",
+  "script_sha256": "64cee27314a9ca64f94fa6e5570ef275c29ff811c356d5a041875d9299a4c24f",
+  "inputs": [
+    {
+      "path": "reports/tables/deepvariant.summary.csv",
+      "sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d"
+    },
+    {
+      "path": "reports/tables/gatk.summary.csv",
+      "sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7"
+    }
+  ],
+  "row_selection": {
+    "Filter": "PASS",
+    "Type": [
+      "SNP",
+      "INDEL"
+    ]
+  },
+  "metric_columns": [
+    "METRIC.Recall",
+    "METRIC.Precision",
+    "METRIC.F1_Score"
+  ],
+  "axis_range": [
+    0,
+    1
+  ],
+  "outputs": [
+    {
+      "path": "reports/figures/overall_benchmark_metrics.png",
+      "sha256": "b7f546ca6d55bccdb7d3c84f3a70f2a75c4039952181298dcf62a44b452359fd"
+    },
+    {
+      "path": "reports/figures/overall_benchmark_metrics.svg",
+      "sha256": "aa9cd6f76e3ac2db04adfd31152e773371cfa919d8064d1095b3deb33f82cc04"
+    },
+    {
+      "path": "reports/figures/overall_benchmark_metrics.pdf",
+      "sha256": "ac96653071e1297bfc76289e5a817ae7c90659c40fa1fafa6f71bf4ee57ceec5"
+    }
+  ],
+  "note": "Additional figure provenance; existing export manifest unchanged."
+}
