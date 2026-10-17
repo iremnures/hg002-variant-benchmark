@@ -1,0 +1,13 @@
+gene,caller,length_group,repeat_context,truth_total,truth_tp,truth_fn,recall
+MYT1,deepvariant,1-5,repeat_overlap,13,13,0,1.0
+MYT1,gatk,1-5,repeat_overlap,13,13,0,1.0
+MYT1,deepvariant,1-5,no_repeat_overlap,16,15,1,0.9375
+MYT1,gatk,1-5,no_repeat_overlap,16,15,1,0.9375
+MYT1,deepvariant,6-15,repeat_overlap,3,1,2,0.3333333333333333
+MYT1,gatk,6-15,repeat_overlap,3,1,2,0.3333333333333333
+MYT1,deepvariant,6-15,no_repeat_overlap,4,2,2,0.5
+MYT1,gatk,6-15,no_repeat_overlap,4,4,0,1.0
+MYT1,deepvariant,16+,repeat_overlap,15,5,10,0.3333333333333333
+MYT1,gatk,16+,repeat_overlap,15,9,6,0.6
+MYT1,deepvariant,16+,no_repeat_overlap,0,0,0,
+MYT1,gatk,16+,no_repeat_overlap,0,0,0,

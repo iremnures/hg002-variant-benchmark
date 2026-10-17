@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-10-17T08:32:00.920957+00:00",
+  "accession": "NC_000020.11",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000020.11&rettype=fasta&retmode=text",
+  "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000020.11&rettype=fasta&retmode=text",
+  "retrieval_note": "Accession-based retrieval URL reconstructed for verification; the original complete download query was not retained.",
+  "normalization": "Ignore FASTA header, whitespace and sequence letter case",
+  "local_path": "data/reference/chr20.GRCh38.fa",
+  "local": {
+    "header": "chr20",
+    "length_bp": 64444167,
+    "file_sha256": "197fed2cbb4b9d98bc9b5b6c4576510b2b8d56071c5fd65a62253f356a32f0e4",
+    "sequence_sha256": "2442701218d3b2f7e2d7cacd78774e1628fd48a7a13b58bee53ab8b7cb3d1af4"
+  },
+  "remote": {
+    "header": "NC_000020.11 Homo sapiens chromosome 20, GRCh38.p14 Primary Assembly",
+    "length_bp": 64444167,
+    "file_sha256": "0853cf2c2e00782afd8d4c3682c0f67aa8dcbc60dd1b205dbe14d631fc3d8c54",
+    "sequence_sha256": "2442701218d3b2f7e2d7cacd78774e1628fd48a7a13b58bee53ab8b7cb3d1af4"
+  },
+  "status": "VERIFIED_SEQUENCE",
+  "input_manifest_sha256": "84b63d9fcdb24044c997e107d0dfac1aa645fd338818904893d388d0412b3ab3",
+  "script_sha256": "9b352a95161240f2852ad7f763c213049b20e906fedd1a765674394fc8d610e0",
+  "scope": "chr20 sequence identity, not whole reference-bundle identity"
+}

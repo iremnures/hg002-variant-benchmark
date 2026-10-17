@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-17T08:29:50.647187+00:00",
+  "source_url": "https://raw.githubusercontent.com/usnistgov/giab-cmrg-benchmarkset/bc2e305556b9e377535f0e8d7c947159c1da2a30/data/cmrg_coords/HG002_GRCh38_CMRG_coordinates.bed",
+  "resolved_url": "https://raw.githubusercontent.com/usnistgov/giab-cmrg-benchmarkset/bc2e305556b9e377535f0e8d7c947159c1da2a30/data/cmrg_coords/HG002_GRCh38_CMRG_coordinates.bed",
+  "source_commit": "bc2e305556b9e377535f0e8d7c947159c1da2a30",
+  "local_path": "data/annotations/HG002_GRCh38_CMRG_coordinates.bed",
+  "local_size_bytes": 8034,
+  "remote_size_bytes": 8034,
+  "local_sha256": "4b917b24a19b449d17d3aec290c4e0fe93b4a54908eed43ed765a41e404c737a",
+  "remote_sha256": "4b917b24a19b449d17d3aec290c4e0fe93b4a54908eed43ed765a41e404c737a",
+  "status": "VERIFIED_EXACT_FILE",
+  "input_manifest_sha256": "4a1b96a754d2ce5a0b6b21451e3d1a1fa6b820ae4e1995e937cbb161ea721194",
+  "script_sha256": "f1ff9f2abfff5df3b2a6567ce8060b1affc5cb949b5154ffaddc1567e27202a1"
+}

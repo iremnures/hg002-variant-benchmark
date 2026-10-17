@@ -1,0 +1,200 @@
+{
+  "created_utc": "2026-10-17T10:16:35.288358+00:00",
+  "source_run": "results/release_check",
+  "source_run_task_status_counts": {
+    "COMPLETED": 10
+  },
+  "script_sha256": "2c06f1b1d552a023e272b7a07a24fa123d16a345a06d92b086e056b876a8fb18",
+  "scope": "Curated snapshot of the selected validated run. Separate earlier nine-task uncached evidence is also retained.",
+  "assets": [
+    {
+      "export": "tables/deepvariant.summary.csv",
+      "source": "results/release_check/benchmarks/deepvariant/deepvariant.summary.csv",
+      "source_sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d",
+      "export_sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/deepvariant.per_gene.summary.csv",
+      "source": "results/release_check/per_gene/deepvariant_per_gene/deepvariant.summary.csv",
+      "source_sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d",
+      "export_sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/deepvariant.extended.csv",
+      "source": "results/release_check/benchmarks/deepvariant/deepvariant.extended.csv",
+      "source_sha256": "cd873f3d71cc9784851c4169284242901860f8060ab40da5aa86bb9547f56def",
+      "export_sha256": "cd873f3d71cc9784851c4169284242901860f8060ab40da5aa86bb9547f56def",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/deepvariant.per_gene.extended.csv",
+      "source": "results/release_check/per_gene/deepvariant_per_gene/deepvariant.extended.csv",
+      "source_sha256": "f7b218e87922ca34f1216d33f41bc433270b6687af474f2f5d3030ec11008785",
+      "export_sha256": "f7b218e87922ca34f1216d33f41bc433270b6687af474f2f5d3030ec11008785",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/gatk.summary.csv",
+      "source": "results/release_check/benchmarks/gatk/gatk.summary.csv",
+      "source_sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7",
+      "export_sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/gatk.per_gene.summary.csv",
+      "source": "results/release_check/per_gene/gatk_per_gene/gatk.summary.csv",
+      "source_sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7",
+      "export_sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/gatk.extended.csv",
+      "source": "results/release_check/benchmarks/gatk/gatk.extended.csv",
+      "source_sha256": "8d2b5ca3bbf1a0e5598c03fa273d19329a221ad30ccdc1372e728663656f6051",
+      "export_sha256": "8d2b5ca3bbf1a0e5598c03fa273d19329a221ad30ccdc1372e728663656f6051",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/gatk.per_gene.extended.csv",
+      "source": "results/release_check/per_gene/gatk_per_gene/gatk.extended.csv",
+      "source_sha256": "6d72558194d00bb556de403683bc4078cf20869cb03e33c20d5e616900ebef3d",
+      "export_sha256": "6d72558194d00bb556de403683bc4078cf20869cb03e33c20d5e616900ebef3d",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/MYT1.variants.csv",
+      "source": "results/release_check/context_analysis/MYT1/variants.csv",
+      "source_sha256": "43c93a8eb2bfa9fc84ab3437945f89a7ca8444ccc93c39cf2a5b1eec9717c5a9",
+      "export_sha256": "43c93a8eb2bfa9fc84ab3437945f89a7ca8444ccc93c39cf2a5b1eec9717c5a9",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/MYT1.summary.csv",
+      "source": "results/release_check/context_analysis/MYT1/summary.csv",
+      "source_sha256": "f01bb28ba6c633d7b6ba31ef945c15e75356d3c69de0b89de1ee1222384d3d36",
+      "export_sha256": "f01bb28ba6c633d7b6ba31ef945c15e75356d3c69de0b89de1ee1222384d3d36",
+      "transformation": "none"
+    },
+    {
+      "export": "tables/gene_coverage.csv",
+      "source": "results/release_check/regions/coverage.csv",
+      "source_sha256": "0b0d619bb4aff10812d873cf4529bc46a9cc99e96208bdd421cec27e624b6cbb",
+      "export_sha256": "0b0d619bb4aff10812d873cf4529bc46a9cc99e96208bdd421cec27e624b6cbb",
+      "transformation": "none"
+    },
+    {
+      "export": "figures/MYT1_indel_recall_by_context.png",
+      "source": "results/release_check/figures/MYT1_indel_recall_by_context.png",
+      "source_sha256": "31879eefba10a18155550e908ad5e2b280d01e6e47165101eff3f96ea6403b2b",
+      "export_sha256": "31879eefba10a18155550e908ad5e2b280d01e6e47165101eff3f96ea6403b2b",
+      "transformation": "none"
+    },
+    {
+      "export": "figures/MYT1_indel_recall_by_context.svg",
+      "source": "results/release_check/figures/MYT1_indel_recall_by_context.svg",
+      "source_sha256": "fd3c0842289db16cd80dac3e7739c448330e9ac337dbe8938b87129a97c722bd",
+      "export_sha256": "fd3c0842289db16cd80dac3e7739c448330e9ac337dbe8938b87129a97c722bd",
+      "transformation": "none"
+    },
+    {
+      "export": "figures/MYT1_indel_recall_by_context.pdf",
+      "source": "results/release_check/figures/MYT1_indel_recall_by_context.pdf",
+      "source_sha256": "94cd89fee37523badc7a6e33469a69f3f33d127451f63eaf3a033032ad9a47a1",
+      "export_sha256": "94cd89fee37523badc7a6e33469a69f3f33d127451f63eaf3a033032ad9a47a1",
+      "transformation": "none"
+    },
+    {
+      "export": "validation/region_workflow.json",
+      "source": "results/release_check/validation.json",
+      "source_sha256": "5966ff9df7ad2d4910aaedd13ca031d0a85c3069bc7d0ad3e0f4cde04c1a91aa",
+      "export_sha256": "1586520d7060e9dac99dd7862e7f44f852a6466720404b8ec0b82959d5fd8d95",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}"
+      ]
+    },
+    {
+      "export": "validation/uncached_workflow.json",
+      "source": "results/nextflow_clean_run/validation.json",
+      "source_sha256": "cb39d4ba372381c93a28fddeb6798af3acb8b930fecd401e4838417d20cf0c2a",
+      "export_sha256": "492fb40afde26b71f555111dc98ae7b53c1f63cad511bec1ac1a4af3f33efcb2",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}"
+      ]
+    },
+    {
+      "export": "validation/ad_content_preservation.json",
+      "source": "results/validation/ad_content_preservation.json",
+      "source_sha256": "7352f0dc5ca03bd988bfb08eb978916a5542482e1fbba480a6673c46554d6e17",
+      "export_sha256": "7352f0dc5ca03bd988bfb08eb978916a5542482e1fbba480a6673c46554d6e17",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}"
+      ]
+    },
+    {
+      "export": "provenance/callset_sources.json",
+      "source": "results/validation/callset_source_verification.json",
+      "source_sha256": "ddf3fe7b448bcbf4dd02afa4726c86125f618fbf727b2b1030bcbb13ee1500f3",
+      "export_sha256": "ddf3fe7b448bcbf4dd02afa4726c86125f618fbf727b2b1030bcbb13ee1500f3",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}"
+      ]
+    },
+    {
+      "export": "provenance/giab_sources.json",
+      "source": "results/validation/giab_source_verification.json",
+      "source_sha256": "44731cdbcaf892a79c91c62fafbbbd6b419f4273632e4e1fc83c6ab2e521ec08",
+      "export_sha256": "44731cdbcaf892a79c91c62fafbbbd6b419f4273632e4e1fc83c6ab2e521ec08",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}"
+      ]
+    },
+    {
+      "export": "provenance/cmrg_source.json",
+      "source": "results/validation/cmrg_source_verification.json",
+      "source_sha256": "6ce4b4de2cc35f69b13338f0ed2236f6041296596a13cf0acf9bfaeb409c0ada",
+      "export_sha256": "6ce4b4de2cc35f69b13338f0ed2236f6041296596a13cf0acf9bfaeb409c0ada",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}"
+      ]
+    },
+    {
+      "export": "provenance/reference_source.json",
+      "source": "results/validation/reference_source_verification.json",
+      "source_sha256": "5cc5244792bad037bf26ce6276007075061ead0ea6e9505b3371b85ee67e65bf",
+      "export_sha256": "5cc5244792bad037bf26ce6276007075061ead0ea6e9505b3371b85ee67e65bf",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}"
+      ]
+    },
+    {
+      "export": "provenance/tandem_source.json",
+      "source": "results/validation/tandem_checksum_discovery.json",
+      "source_sha256": "5247fb4d2ad15b3754ca602b8dbe00c377f5520faa9451d1e352646778921d19",
+      "export_sha256": "f53b46bda3a72cbdfa54c24ccf83d25a6a8f253ebdaf5e4f33b0b4f19d96ac55",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}",
+        "Omit full checksum listing and unrelated candidates; retain listing hash and exact matches"
+      ]
+    },
+    {
+      "export": "provenance/MYT1_analysis_metadata.json",
+      "source": "results/release_check/context_analysis/MYT1/metadata.json",
+      "source_sha256": "555da4790946297ce429356ae0fda65d2ba116920d88e3c5cbc870f562e5fdb2",
+      "export_sha256": "7c667aceb63eef8ea9a8ddd18ad8e4417a79217eff848493239bc319c747bfb2",
+      "transformation": [
+        "Replace absolute project root with ${PROJECT_ROOT}"
+      ]
+    },
+    {
+      "export": "provenance/ad_warning_examples.txt",
+      "source": [
+        "logs/deepvariant_pilot.log",
+        "logs/gatk_pilot_noAD.log"
+      ],
+      "export_sha256": "127772260ade72e4f2da0b27e7521386c1abe55fd6819136eec72ca3c7d15c1e",
+      "transformation": "First four matching warning lines from each source log"
+    }
+  ]
+}

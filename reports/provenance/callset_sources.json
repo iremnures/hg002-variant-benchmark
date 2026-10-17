@@ -1,0 +1,58 @@
+{
+  "checked_utc": "2026-10-16T18:24:43.876784+00:00",
+  "script_sha256": "05c0d69647cdbc2c12f4d4965480f2ccc9f3d9631863bf828b5cd2cad8df7c65",
+  "method": "Local compressed-file size and MD5 versus GCS object metadata",
+  "scope": "Exact file identity only. Does not establish model checkpoint, training independence or identical caller input BAMs.",
+  "callsets": {
+    "deepvariant": {
+      "local_path": "data/callsets/HG002.deepvariant1.0.novaseq30x.grch38.vcf.gz",
+      "local_size_bytes": 135814793,
+      "local_hashes": {
+        "md5_base64": "CIh35QUr5NlNQb1F8xODxg==",
+        "sha256": "256792ccde9938549b029629653c478b83a0d3cae8ce84ddc1750fa57749bd1c"
+      },
+      "candidate_metadata_url": "https://storage.googleapis.com/storage/v1/b/brain-genomics-public/o/research%2Fsequencing%2Fgrch38%2Fvcf%2Fnovaseq%2Fwgs_pcr_free%2F30x%2FHG002.novaseq.pcr-free.30x.deepvariant-v1.0.grch38.vcf.gz",
+      "candidate_download_url": "https://storage.googleapis.com/brain-genomics-public/research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.deepvariant-v1.0.grch38.vcf.gz",
+      "remote_metadata": {
+        "bucket": "brain-genomics-public",
+        "name": "research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.deepvariant-v1.0.grch38.vcf.gz",
+        "size": "135814793",
+        "md5Hash": "CIh35QUr5NlNQb1F8xODxg==",
+        "crc32c": "f4mtcg==",
+        "generation": "1607665360587244",
+        "updated": "2020-12-11T05:42:40.587Z",
+        "timeCreated": "2020-12-11T05:42:40.587Z",
+        "etag": "COyT8ZWcxe0CEAE="
+      },
+      "size_match": true,
+      "md5_match": true,
+      "object_identity_match": true,
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    "gatk": {
+      "local_path": "data/callsets/HG002.gatk4.novaseq30x.grch38.vcf.gz",
+      "local_size_bytes": 268749707,
+      "local_hashes": {
+        "md5_base64": "5QWY62Qx6enet74Xz5NVzw==",
+        "sha256": "4e7a59f76517825c7211d5180a475c14f2157acf9aac48c84c4d2714292d28c7"
+      },
+      "candidate_metadata_url": "https://storage.googleapis.com/storage/v1/b/brain-genomics-public/o/research%2Fsequencing%2Fgrch38%2Fvcf%2Fnovaseq%2Fwgs_pcr_free%2F30x%2FHG002.novaseq.pcr-free.30x.gatk4.grch38.vcf.gz",
+      "candidate_download_url": "https://storage.googleapis.com/brain-genomics-public/research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.gatk4.grch38.vcf.gz",
+      "remote_metadata": {
+        "bucket": "brain-genomics-public",
+        "name": "research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.gatk4.grch38.vcf.gz",
+        "size": "268749707",
+        "md5Hash": "5QWY62Qx6enet74Xz5NVzw==",
+        "crc32c": "pej7kg==",
+        "generation": "1607665360595899",
+        "updated": "2020-12-11T05:42:40.595Z",
+        "timeCreated": "2020-12-11T05:42:40.595Z",
+        "etag": "CLvX8ZWcxe0CEAE="
+      },
+      "size_match": true,
+      "md5_match": true,
+      "object_identity_match": true,
+      "status": "VERIFIED_EXACT_FILE"
+    }
+  }
+}

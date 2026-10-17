@@ -1,0 +1,3 @@
+# Preserve generated report assets exactly as exported.
+reports/tables/*.csv -text whitespace=cr-at-eol
+reports/figures/*.svg -text whitespace=-blank-at-eol

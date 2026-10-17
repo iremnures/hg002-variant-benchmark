@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "verification_report": "results/validation/callset_source_verification.json",
+  "source_checked_utc": "2026-10-16T18:24:43.876784+00:00",
+  "callsets": [
+    {
+      "id": "deepvariant",
+      "sample": "HG002",
+      "caller_version": "1.0.0",
+      "version_evidence": "docs/vcf_headers/deepvariant.header.txt",
+      "dataset_label": "NovaSeq PCR-free 30x GRCh38",
+      "local_path": "data/callsets/HG002.deepvariant1.0.novaseq30x.grch38.vcf.gz",
+      "source_url": "https://storage.googleapis.com/brain-genomics-public/research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.deepvariant-v1.0.grch38.vcf.gz",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/brain-genomics-public/o/research%2Fsequencing%2Fgrch38%2Fvcf%2Fnovaseq%2Fwgs_pcr_free%2F30x%2FHG002.novaseq.pcr-free.30x.deepvariant-v1.0.grch38.vcf.gz",
+      "gcs_bucket": "brain-genomics-public",
+      "gcs_object": "research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.deepvariant-v1.0.grch38.vcf.gz",
+      "gcs_generation": "1607665360587244",
+      "size_bytes": 135814793,
+      "md5_base64": "CIh35QUr5NlNQb1F8xODxg==",
+      "sha256": "256792ccde9938549b029629653c478b83a0d3cae8ce84ddc1750fa57749bd1c",
+      "verification": "Exact compressed-file size and MD5 match",
+      "model_checkpoint": null
+    },
+    {
+      "id": "gatk",
+      "sample": "HG002",
+      "caller_version": "4.1.8.0",
+      "version_evidence": "docs/vcf_headers/gatk.header.txt",
+      "dataset_label": "NovaSeq PCR-free 30x GRCh38",
+      "local_path": "data/callsets/HG002.gatk4.novaseq30x.grch38.vcf.gz",
+      "source_url": "https://storage.googleapis.com/brain-genomics-public/research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.gatk4.grch38.vcf.gz",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/brain-genomics-public/o/research%2Fsequencing%2Fgrch38%2Fvcf%2Fnovaseq%2Fwgs_pcr_free%2F30x%2FHG002.novaseq.pcr-free.30x.gatk4.grch38.vcf.gz",
+      "gcs_bucket": "brain-genomics-public",
+      "gcs_object": "research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.gatk4.grch38.vcf.gz",
+      "gcs_generation": "1607665360595899",
+      "size_bytes": 268749707,
+      "md5_base64": "5QWY62Qx6enet74Xz5NVzw==",
+      "sha256": "4e7a59f76517825c7211d5180a475c14f2157acf9aac48c84c4d2714292d28c7",
+      "verification": "Exact compressed-file size and MD5 match",
+      "model_checkpoint": null
+    }
+  ],
+  "notes": [
+    "Dataset labels do not establish identical input BAMs.",
+    "Model checkpoint is not established by file-identity verification.",
+    "Null means unknown or not applicable; consult caller documentation.",
+    "This manifest covers query VCFs only, not all project inputs."
+  ]
+}

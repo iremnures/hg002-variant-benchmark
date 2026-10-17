@@ -1,0 +1,28 @@
+# Downloaded and generated genomic inputs
+/data/
+
+# Nextflow work directories and runtime state
+/work/
+/.nextflow/
+/.nextflow.log*
+/.nextflow.history*
+
+# Working results and logs; publication outputs are curated separately
+/results/
+/logs/
+
+# Backups and temporary files
+*.bak
+*.tmp
+*~
+
+# Python runtime and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store

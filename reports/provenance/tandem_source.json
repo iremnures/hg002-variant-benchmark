@@ -1,0 +1,15 @@
+{
+  "checksum_url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/genome-stratifications/v3.6/genome-stratifications-md5s.txt",
+  "resolved_checksum_url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/genome-stratifications/v3.6/genome-stratifications-md5s.txt",
+  "checksum_document_sha256": "816ca97172382a2fae297772b5e0b5fe6cf9d1d7a623d0195d84fe3db467738f",
+  "local_path": "data/stratifications/GRCh38_AllTandemRepeats.bed.gz",
+  "local_md5": "d27d2b4e43e46a724da4934333cf0367",
+  "local_sha256": "ff58710eb3aab81c172f83ac263ab698068b0a4f0d8357d7347ff9a7b8774179",
+  "exact_matches": [
+    {
+      "name": "./GRCh38@all/LowComplexity/GRCh38_AllTandemRepeats.bed.gz",
+      "md5": "d27d2b4e43e46a724da4934333cf0367"
+    }
+  ],
+  "scope": "Checksum discovery; source manifest not yet modified"
+}

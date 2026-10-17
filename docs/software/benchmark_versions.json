@@ -1,0 +1,31 @@
+{
+  "recorded_utc": "2026-10-16T17:48:32.021546+00:00",
+  "image_id": "f69ea1624f20667ede3638991ce64f177fe85fbb90dcfc0ba29c4b0e52d0c4b8",
+  "recorded_repo_tags": [
+    "docker.io/pkrusche/hap.py:v0.3.9"
+  ],
+  "recorded_repo_digests": [
+    "docker.io/pkrusche/hap.py@sha256:8f66a710675863fabf81d599e2c3021116d5310ada60619633c02ccb64566331"
+  ],
+  "version_queries": {
+    "hap.py": {
+      "command": [
+        "/opt/hap.py/bin/hap.py",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Hap.py v0.3.8-17-gf15de4a",
+      "stderr": "2026-10-16 17:48:31,038 WARNING  No reference file found at default locations. You can set the environment variable 'HGREF' or 'HG19' to point to a suitable Fasta file.\n2026-10-16 17:48:31,049 WARNING  No reference file found at default locations. You can set the environment variable 'HGREF' or 'HG19' to point to a suitable Fasta file."
+    },
+    "rtg": {
+      "command": [
+        "/opt/hap.py/libexec/rtg-tools-install/rtg",
+        "version"
+      ],
+      "returncode": 0,
+      "stdout": "Product: RTG Tools 3.8.1\nCore Version: unknown (2017-06-03)\nRAM: 0.4GB of 7.4GB RAM can be used by rtg (5%)\nCPU: Defaulting to 8 of 8 available processors (100%)\nJVM: Java HotSpot(TM) 64-Bit Server VM 1.8.0_131\nLicense: No license file required\nContact: support@realtimegenomics.com\n\nPatents / Patents pending:\nUS: 7,640,256, 9,165,253, 13/129,329, 13/681,046, 13/681,215, 13/848,653, 13/925,704, 14/015,295, 13/971,654, 13/971,630, 14/564,810\nUK: 1222923.3, 1222921.7, 1304502.6, 1311209.9, 1314888.7, 1314908.3\nNew Zealand: 626777, 626783, 615491, 614897, 614560\nAustralia: 2005255348, Singapore: 128254\n\nCitation (variant calling):\nJohn G. Cleary, Ross Braithwaite, Kurt Gaastra, Brian S. Hilbush, Stuart Inglis, Sean A. Irvine, Alan Jackson, Richard Littin, Sahar Nohzadeh-Malakshah, Mehul Rathod, David Ware, Len Trigg, and Francisco M. De La Vega. \"Joint Variant and De Novo Mutation Identification on Pedigrees from High-Throughput Sequencing Data.\" Journal of Computational Biology. June 2014, 21(6): 405-419. doi:10.1089/cmb.2014.0029.\n\nCitation (vcfeval):\nJohn G. Cleary, Ross Braithwaite, Kurt Gaastra, Brian S. Hilbush, Stuart Inglis, Sean A. Irvine, Alan Jackson, Richard Littin, Mehul Rathod, David Ware, Justin M. Zook, Len Trigg, and Francisco M. De La Vega. \"Comparing Variant Call Files for Performance Benchmarking of Next-Generation Sequencing Variant Calling Pipelines.\" bioRxiv, 2015. doi:10.1101/023754.\n\n(c) Real Time Genomics, 2017",
+      "stderr": ""
+    }
+  },
+  "note": "Version commands executed in the recorded benchmark image. A local image ID alone is not a portable image retrieval reference."
+}

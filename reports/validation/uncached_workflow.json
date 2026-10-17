@@ -1,0 +1,322 @@
+{
+  "checked_utc": "2026-10-17T08:56:29.310980+00:00",
+  "results_dir": "${PROJECT_ROOT}/results/nextflow_clean_run",
+  "pipeline_sha256": "dc4f120b4a83d10b5999bd266cdb822928afe27fcdd652f710463adc9dc70236",
+  "config_sha256": "d3b7da3cdd2312aa34ecb95964c124fbd2d10e3120eafb1473acfae9d9c56dbe",
+  "validator_sha256": "d1733bf91ec9e13430a2be0d22f04e2b54b4df27ffc742417a6477a303cac33e",
+  "helper_sha256": {
+    "scripts/18_validate_nextflow_benchmarks.py": "4c50867acb468331097c3a0f8ed1f10d4de5477853d55a2f329256b94006b100",
+    "scripts/19_validate_nextflow_gene_metrics.py": "998bf550cf4f238f6909c7ad442331674c39b560625902f95ba18a30be29c2f0"
+  },
+  "checks": [
+    {
+      "check": "giab: padded VCF",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "4bcc3f0d1ce3098c068f6beb7ee74f9865824e5b3c2f075c9927c30af5c817d5",
+        "new_sha256": "4bcc3f0d1ce3098c068f6beb7ee74f9865824e5b3c2f075c9927c30af5c817d5"
+      }
+    },
+    {
+      "check": "giab: AD-free VCF",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "e440f8126d83d2d2d3bbcfbf800766e6391586ac407bc44ac57b29759a28889f",
+        "new_sha256": "e440f8126d83d2d2d3bbcfbf800766e6391586ac407bc44ac57b29759a28889f"
+      }
+    },
+    {
+      "check": "deepvariant: padded VCF",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "156e1f1e73bb1789cf90f7b03b4c305f5fecf9339ebd5ca21a0bbd7b2e9310c7",
+        "new_sha256": "156e1f1e73bb1789cf90f7b03b4c305f5fecf9339ebd5ca21a0bbd7b2e9310c7"
+      }
+    },
+    {
+      "check": "deepvariant: AD-free VCF",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "51519077f129c4d473e32f4a7f3f512c26e73990c0899bec8d875f8d6d74606c",
+        "new_sha256": "51519077f129c4d473e32f4a7f3f512c26e73990c0899bec8d875f8d6d74606c"
+      }
+    },
+    {
+      "check": "gatk: padded VCF",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "8d66ea14d65f3612469269cc5c6758a5581e643d55e63b8346c8ee083c968b91",
+        "new_sha256": "8d66ea14d65f3612469269cc5c6758a5581e643d55e63b8346c8ee083c968b91"
+      }
+    },
+    {
+      "check": "gatk: AD-free VCF",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "cdcc94f549873e3eada0d88ba66d7b85f43432585409124dc0208cd831dfb44a",
+        "new_sha256": "cdcc94f549873e3eada0d88ba66d7b85f43432585409124dc0208cd831dfb44a"
+      }
+    },
+    {
+      "check": "Reference-check results",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "deepvariant: benchmark summary",
+      "passed": true,
+      "details": {
+        "baseline_rows": 4,
+        "new_rows": 4,
+        "differences": [],
+        "baseline_sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d",
+        "new_sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d"
+      }
+    },
+    {
+      "check": "deepvariant: per-gene summary",
+      "passed": true,
+      "details": {
+        "baseline_rows": 4,
+        "new_rows": 4,
+        "differences": [],
+        "baseline_sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d",
+        "new_sha256": "bc3db46c4838b223bb568a58bb478d27c727872ca76978479a3baefb809b4a2d"
+      }
+    },
+    {
+      "check": "deepvariant: benchmark extended",
+      "passed": true,
+      "details": {
+        "baseline_rows": 44,
+        "new_rows": 44,
+        "differences": [],
+        "baseline_sha256": "cd873f3d71cc9784851c4169284242901860f8060ab40da5aa86bb9547f56def",
+        "new_sha256": "cd873f3d71cc9784851c4169284242901860f8060ab40da5aa86bb9547f56def"
+      }
+    },
+    {
+      "check": "deepvariant: per-gene extended",
+      "passed": true,
+      "details": {
+        "baseline_rows": 176,
+        "new_rows": 176,
+        "differences": [],
+        "baseline_sha256": "f7b218e87922ca34f1216d33f41bc433270b6687af474f2f5d3030ec11008785",
+        "new_sha256": "f7b218e87922ca34f1216d33f41bc433270b6687af474f2f5d3030ec11008785"
+      }
+    },
+    {
+      "check": "deepvariant: benchmark VCF records",
+      "passed": true,
+      "details": {
+        "baseline_records": 1178,
+        "new_records": 1178
+      }
+    },
+    {
+      "check": "gatk: benchmark summary",
+      "passed": true,
+      "details": {
+        "baseline_rows": 4,
+        "new_rows": 4,
+        "differences": [],
+        "baseline_sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7",
+        "new_sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7"
+      }
+    },
+    {
+      "check": "gatk: per-gene summary",
+      "passed": true,
+      "details": {
+        "baseline_rows": 4,
+        "new_rows": 4,
+        "differences": [],
+        "baseline_sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7",
+        "new_sha256": "b0c832b3f2f1d26891a17936aad1acda7a777f5cb9cda8911ab67c1b0b6744b7"
+      }
+    },
+    {
+      "check": "gatk: benchmark extended",
+      "passed": true,
+      "details": {
+        "baseline_rows": 44,
+        "new_rows": 44,
+        "differences": [],
+        "baseline_sha256": "8d2b5ca3bbf1a0e5598c03fa273d19329a221ad30ccdc1372e728663656f6051",
+        "new_sha256": "8d2b5ca3bbf1a0e5598c03fa273d19329a221ad30ccdc1372e728663656f6051"
+      }
+    },
+    {
+      "check": "gatk: per-gene extended",
+      "passed": true,
+      "details": {
+        "baseline_rows": 176,
+        "new_rows": 176,
+        "differences": [],
+        "baseline_sha256": "6d72558194d00bb556de403683bc4078cf20869cb03e33c20d5e616900ebef3d",
+        "new_sha256": "6d72558194d00bb556de403683bc4078cf20869cb03e33c20d5e616900ebef3d"
+      }
+    },
+    {
+      "check": "gatk: benchmark VCF records",
+      "passed": true,
+      "details": {
+        "baseline_records": 1184,
+        "new_records": 1184
+      }
+    },
+    {
+      "check": "MYT1: variants.csv",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "43c93a8eb2bfa9fc84ab3437945f89a7ca8444ccc93c39cf2a5b1eec9717c5a9",
+        "new_sha256": "43c93a8eb2bfa9fc84ab3437945f89a7ca8444ccc93c39cf2a5b1eec9717c5a9"
+      }
+    },
+    {
+      "check": "MYT1: summary.csv",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "f01bb28ba6c633d7b6ba31ef945c15e75356d3c69de0b89de1ee1222384d3d36",
+        "new_sha256": "f01bb28ba6c633d7b6ba31ef945c15e75356d3c69de0b89de1ee1222384d3d36"
+      }
+    },
+    {
+      "check": "Figure exists: png",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "Figure exists: svg",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "Figure exists: pdf",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "PNG pixel equality",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "Nine tasks completed without cache or task failure",
+      "passed": true,
+      "details": {}
+    }
+  ],
+  "task_trace": [
+    {
+      "task_id": "1",
+      "hash": "57/3a4ba6",
+      "name": "PREPARE_GENE_VCFS (chr20 gene subsets)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "14.3s",
+      "%cpu": "97.5%",
+      "peak_rss": "20.4 MB",
+      "read_bytes": "409.7 MB",
+      "write_bytes": "776 KB"
+    },
+    {
+      "task_id": "2",
+      "hash": "37/e85e96",
+      "name": "CHECK_REF_ALLELES (validate REF alleles)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "77ms",
+      "%cpu": "105.9%",
+      "peak_rss": "16.7 MB",
+      "read_bytes": "1.3 MB",
+      "write_bytes": "4 KB"
+    },
+    {
+      "task_id": "3",
+      "hash": "43/dc898c",
+      "name": "PREPARE_COMPARISON_INPUTS (prepare AD-free copies)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "96ms",
+      "%cpu": "96.4%",
+      "peak_rss": "3.7 MB",
+      "read_bytes": "104 KB",
+      "write_bytes": "1.5 MB"
+    },
+    {
+      "task_id": "4",
+      "hash": "4f/05561e",
+      "name": "BENCHMARK_CALLSET (deepvariant)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "7.1s",
+      "%cpu": "2.6%",
+      "peak_rss": "55.3 MB",
+      "read_bytes": "44.6 MB",
+      "write_bytes": "524 KB"
+    },
+    {
+      "task_id": "5",
+      "hash": "c0/06aee7",
+      "name": "BENCHMARK_CALLSET (gatk)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "7.8s",
+      "%cpu": "2.3%",
+      "peak_rss": "55.6 MB",
+      "read_bytes": "1.9 MB",
+      "write_bytes": "480 KB"
+    },
+    {
+      "task_id": "6",
+      "hash": "e2/7c8625",
+      "name": "QUANTIFY_PER_GENE (deepvariant)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "662ms",
+      "%cpu": "20.7%",
+      "peak_rss": "3.6 MB",
+      "read_bytes": "128 KB",
+      "write_bytes": "464 KB"
+    },
+    {
+      "task_id": "8",
+      "hash": "5f/e2a953",
+      "name": "ANALYZE_GENE_CONTEXT (MYT1)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "2s",
+      "%cpu": "96.8%",
+      "peak_rss": "23.8 MB",
+      "read_bytes": "1.5 MB",
+      "write_bytes": "16 KB"
+    },
+    {
+      "task_id": "7",
+      "hash": "6e/044ad1",
+      "name": "QUANTIFY_PER_GENE (gatk)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "626ms",
+      "%cpu": "18.7%",
+      "peak_rss": "3.6 MB",
+      "read_bytes": "136 KB",
+      "write_bytes": "472 KB"
+    },
+    {
+      "task_id": "9",
+      "hash": "7b/956dc4",
+      "name": "PLOT_GENE_CONTEXT (MYT1)",
+      "status": "COMPLETED",
+      "exit": "0",
+      "realtime": "1.1s",
+      "%cpu": "81.5%",
+      "peak_rss": "117.8 MB",
+      "read_bytes": "68.6 MB",
+      "write_bytes": "288 KB"
+    }
+  ],
+  "status": "PASS"
+}

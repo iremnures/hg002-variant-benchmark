@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-17T10:15:07.372801+00:00",
+  "gene": "MYT1",
+  "python": "3.14.7",
+  "script_sha256": "a0b5ff5e1c8a749f84ff54a302cd417f21a306511aab42453b6033c51aa29d84",
+  "truth_record_count": 51,
+  "inputs": {
+    "gene_bed": {
+      "path": "${PROJECT_ROOT}/work/release_check/cf/4e36676680e291fdf0eaf039584ab6/regions/per_gene/MYT1.bed",
+      "sha256": "1c59856c0c17891e60c73b1bf7a5be8b926336002a24dd1fe94814053c955563"
+    },
+    "repeats": {
+      "path": "${PROJECT_ROOT}/data/stratifications/GRCh38_AllTandemRepeats.bed.gz",
+      "sha256": "ff58710eb3aab81c172f83ac263ab698068b0a4f0d8357d7347ff9a7b8774179"
+    },
+    "deepvariant": {
+      "path": "${PROJECT_ROOT}/work/release_check/08/00b03e138ded9df2a461988c9b0428/deepvariant/deepvariant.vcf.gz",
+      "sha256": "f295db4b856dbce873ec6e80792537490b4f24bc74e776b32c0837cef73e0c77"
+    },
+    "gatk": {
+      "path": "${PROJECT_ROOT}/work/release_check/e6/1a068e80df02bddfa089b8ceecdbed/gatk/gatk.vcf.gz",
+      "sha256": "d061f3cb51717f0617167d6f4e2664276f54d3c0d29d63e2c534557ad15a6bf8"
+    }
+  },
+  "methods": {
+    "selection": "TRUTH BVT=INDEL and BD in TP,FN; REF overlaps gene BED",
+    "identity": "CHROM,POS,REF,sorted decoded TRUTH genotype alleles",
+    "phase": "Ignored only for cross-output truth-record identity",
+    "missing_gt": "Preserved as <MISSING>; no genotype imputation",
+    "length": "Maximum absolute length change among called literal alleles",
+    "symbolic_alleles": "Excluded from length calculation",
+    "repeat_overlap": "Any REF-span overlap; insertions use anchor base",
+    "unit": "Truth VCF record, not an independent biological event",
+    "scope": "Exploratory recall analysis; no FP/precision calculation"
+  }
+}

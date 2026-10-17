@@ -1,0 +1,11 @@
+Source: logs/deepvariant_pilot.log
+Line 7: 2026-10-16 09:41:11,002 WARNING  [W] too many AD fields at chr20:10028312 max_ad = 2 retrieved: 3
+Line 8: 2026-10-16 09:41:11,002 WARNING  [W] too many AD fields at chr20:10034922 max_ad = 2 retrieved: 3
+Line 9: 2026-10-16 09:41:11,002 WARNING  [W] too many AD fields at chr20:10087517 max_ad = 2 retrieved: 3
+Line 10: 2026-10-16 09:41:11,002 WARNING  [W] too many AD fields at chr20:10116788 max_ad = 2 retrieved: 3
+
+Source: logs/gatk_pilot_noAD.log
+Line 9: 2026-10-16 09:56:19,709 WARNING  [W] too many AD fields at chr20:10034909 max_ad = 2 retrieved: 3
+Line 10: 2026-10-16 09:56:19,709 WARNING  [W] too many AD fields at chr20:10034911 max_ad = 2 retrieved: 3
+Line 11: 2026-10-16 09:56:19,710 WARNING  [W] too many AD fields at chr20:10087517 max_ad = 2 retrieved: 3
+Line 12: 2026-10-16 09:56:19,710 WARNING  [W] too many AD fields at chr20:10116788 max_ad = 2 retrieved: 3

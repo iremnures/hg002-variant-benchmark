@@ -1,0 +1,17 @@
+{
+  "reference_accession": "NC_000020.11",
+  "verified_retrieval_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000020.11&rettype=fasta&retmode=text",
+  "record_name": "chr20",
+  "sequence_case": "uppercase",
+  "line_bases": 70,
+  "newline": "\n",
+  "final_newline": true,
+  "trailing_blank_lines": 1,
+  "sequence_length_bp": 64444167,
+  "expected_sequence_sha256": "2442701218d3b2f7e2d7cacd78774e1628fd48a7a13b58bee53ab8b7cb3d1af4",
+  "expected_fasta_sha256": "197fed2cbb4b9d98bc9b5b6c4576510b2b8d56071c5fd65a62253f356a32f0e4",
+  "expected_index_sha256": "295950bb320e5f27b37360000d77303187e6399bf8e7705aa26fd4a1c88ba115",
+  "local_fasta_path": "data/reference/chr20.GRCh38.fa",
+  "local_index_path": "data/reference/chr20.GRCh38.fa.fai",
+  "verification": "Recipe reproduces existing FASTA and FAI bytes"
+}

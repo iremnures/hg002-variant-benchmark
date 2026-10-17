@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-16T17:47:32.878293+00:00",
+  "script_sha256": "acbe2b785b9188bdfbda05426a7df206314ad4254cf07592261bee38266350d4",
+  "preparation_report_sha256": "faa2cd736d86128c22156eb428b4b2624c984e3b556d09143f79aa472d2e4ea6",
+  "checks": [
+    "Headers equal after excluding FORMAT/AD definition",
+    "Record order and first eight VCF columns preserved",
+    "Only AD removed from FORMAT keys",
+    "Non-AD sample values preserved",
+    "Missing trailing FORMAT values treated as missing",
+    "Counts agree with preparation report",
+    "Input file hashes stable during validation"
+  ],
+  "scope": "Content preservation; not benchmark outcome equivalence",
+  "datasets": {
+    "giab": {
+      "status": "PASS",
+      "source": "data/gene_subset/giab.padded.vcf",
+      "output": "data/gene_subset/noAD/giab.vcf",
+      "source_sha256": "4bcc3f0d1ce3098c068f6beb7ee74f9865824e5b3c2f075c9927c30af5c817d5",
+      "output_sha256": "e440f8126d83d2d2d3bbcfbf800766e6391586ac407bc44ac57b29759a28889f",
+      "records_checked": 1113,
+      "records_with_AD_removed": 1113,
+      "filter_distribution": {
+        ".": 1105,
+        "GAP1": 8
+      }
+    },
+    "deepvariant": {
+      "status": "PASS",
+      "source": "data/gene_subset/deepvariant.padded.vcf",
+      "output": "data/gene_subset/noAD/deepvariant.vcf",
+      "source_sha256": "156e1f1e73bb1789cf90f7b03b4c305f5fecf9339ebd5ca21a0bbd7b2e9310c7",
+      "output_sha256": "51519077f129c4d473e32f4a7f3f512c26e73990c0899bec8d875f8d6d74606c",
+      "records_checked": 2196,
+      "records_with_AD_removed": 2196,
+      "filter_distribution": {
+        "PASS": 842,
+        "RefCall": 1354
+      }
+    },
+    "gatk": {
+      "status": "PASS",
+      "source": "data/gene_subset/gatk.padded.vcf",
+      "output": "data/gene_subset/noAD/gatk.vcf",
+      "source_sha256": "8d66ea14d65f3612469269cc5c6758a5581e643d55e63b8346c8ee083c968b91",
+      "output_sha256": "cdcc94f549873e3eada0d88ba66d7b85f43432585409124dc0208cd831dfb44a",
+      "records_checked": 801,
+      "records_with_AD_removed": 801,
+      "filter_distribution": {
+        ".": 801
+      }
+    }
+  }
+}

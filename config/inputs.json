@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-16T18:29:47.698120+00:00",
+  "script_sha256": "36d45b8b05feaa8c42f1c80f56456b4b730d15cd8b8ff5b2298b1efc14457387",
+  "callset_manifest_sha256": "61e3a849a6e87fde3956db014732f4433cf431cba8d1bd73266193aa03a6832c",
+  "source_inputs": [
+    {
+      "id": "deepvariant",
+      "role": "query_callset",
+      "local_path": "data/callsets/HG002.deepvariant1.0.novaseq30x.grch38.vcf.gz",
+      "size_bytes": 135814793,
+      "sha256": "256792ccde9938549b029629653c478b83a0d3cae8ce84ddc1750fa57749bd1c",
+      "source_url": "https://storage.googleapis.com/brain-genomics-public/research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.deepvariant-v1.0.grch38.vcf.gz",
+      "source_status": "remote_size_and_md5_verified",
+      "provenance_record": "config/callsets.json"
+    },
+    {
+      "id": "gatk",
+      "role": "query_callset",
+      "local_path": "data/callsets/HG002.gatk4.novaseq30x.grch38.vcf.gz",
+      "size_bytes": 268749707,
+      "sha256": "4e7a59f76517825c7211d5180a475c14f2157acf9aac48c84c4d2714292d28c7",
+      "source_url": "https://storage.googleapis.com/brain-genomics-public/research/sequencing/grch38/vcf/novaseq/wgs_pcr_free/30x/HG002.novaseq.pcr-free.30x.gatk4.grch38.vcf.gz",
+      "source_status": "remote_size_and_md5_verified",
+      "provenance_record": "config/callsets.json"
+    },
+    {
+      "id": "giab_vcf",
+      "role": "benchmark",
+      "local_path": "data/benchmark/HG002_GRCh38_v5.0q_smvar.vcf.gz",
+      "size_bytes": 42067644,
+      "sha256": "c7f9d7a4781f1f0a8a42ec54b051d6b95db1935c5e12318bae219740f9c50dc8",
+      "source_url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG002_NA24385_son/v5.0q/HG002_GRCh38_v5.0q_smvar.vcf.gz",
+      "source_status": "remote_published_md5_verified",
+      "published_md5": "c71acc71069bf7cd7f51eb8fb0c1a1ab",
+      "provenance_record": "results/validation/giab_source_verification.json"
+    },
+    {
+      "id": "giab_bed",
+      "role": "benchmark_regions",
+      "local_path": "data/benchmark/HG002_GRCh38_v5.0q_smvar.benchmark.bed",
+      "size_bytes": 685544,
+      "sha256": "ef7d898dd421ea357bb9db915894ab3e5c6c1689e36ccf619befda4bbf1cef5b",
+      "source_url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG002_NA24385_son/v5.0q/HG002_GRCh38_v5.0q_smvar.benchmark.bed",
+      "source_status": "remote_published_md5_verified",
+      "published_md5": "3366858af85875cbb3c579412ffa4c56",
+      "provenance_record": "results/validation/giab_source_verification.json"
+    },
+    {
+      "id": "reference_chr20",
+      "role": "reference_sequence",
+      "local_path": "data/reference/chr20.GRCh38.fa",
+      "size_bytes": 65364806,
+      "sha256": "197fed2cbb4b9d98bc9b5b6c4576510b2b8d56071c5fd65a62253f356a32f0e4",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000020.11&rettype=fasta&retmode=text",
+      "source_status": "remote_accession_sequence_sha256_verified",
+      "reference_accession": "NC_000020.11",
+      "sequence_length_bp": 64444167,
+      "sequence_sha256": "2442701218d3b2f7e2d7cacd78774e1628fd48a7a13b58bee53ab8b7cb3d1af4",
+      "normalization": "Ignore FASTA header, whitespace and sequence letter case",
+      "preparation_note": "Local FASTA record identifier is chr20",
+      "provenance_record": "results/validation/reference_source_verification.json"
+    },
+    {
+      "id": "cmrg_coordinates",
+      "role": "region_annotation",
+      "local_path": "data/annotations/HG002_GRCh38_CMRG_coordinates.bed",
+      "size_bytes": 8034,
+      "sha256": "4b917b24a19b449d17d3aec290c4e0fe93b4a54908eed43ed765a41e404c737a",
+      "source_url": "https://raw.githubusercontent.com/usnistgov/giab-cmrg-benchmarkset/bc2e305556b9e377535f0e8d7c947159c1da2a30/data/cmrg_coords/HG002_GRCh38_CMRG_coordinates.bed",
+      "source_status": "pinned_source_sha256_verified",
+      "source_commit": "bc2e305556b9e377535f0e8d7c947159c1da2a30",
+      "source_sha256": "4b917b24a19b449d17d3aec290c4e0fe93b4a54908eed43ed765a41e404c737a",
+      "provenance_record": "results/validation/cmrg_source_verification.json"
+    },
+    {
+      "id": "tandem_repeats",
+      "role": "context_annotation",
+      "local_path": "data/stratifications/GRCh38_AllTandemRepeats.bed.gz",
+      "size_bytes": 9228465,
+      "sha256": "ff58710eb3aab81c172f83ac263ab698068b0a4f0d8357d7347ff9a7b8774179",
+      "source_url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/genome-stratifications/v3.6/GRCh38@all/LowComplexity/GRCh38_AllTandemRepeats.bed.gz",
+      "source_status": "remote_published_md5_verified",
+      "published_md5": "d27d2b4e43e46a724da4934333cf0367",
+      "checksum_url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/genome-stratifications/v3.6/genome-stratifications-md5s.txt",
+      "provenance_record": "results/validation/tandem_checksum_discovery.json"
+    }
+  ],
+  "derived_inputs": [
+    {
+      "id": "selected_regions",
+      "local_path": "data/regions/chr20_cmrg_genes.bed",
+      "size_bytes": 209,
+      "sha256": "da7b0da3a5cab218dd3d882ecd9c7ac00cf9d63988b0298be8db7394bcfd8092",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "evaluable_regions",
+      "local_path": "data/regions/chr20_cmrg_evaluable.bed",
+      "size_bytes": 552,
+      "sha256": "0d481ced6a019f22dae733090a9dc36e4eb0c56355222cd89fdaeadc461b3c43",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "gene_stratification",
+      "local_path": "data/regions/per_gene/genes.tsv",
+      "size_bytes": 94,
+      "sha256": "9e5b629b0e01fb90967d02e43e84eb447549a26e281d8aeab973f90cbee82d63",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "reference_index",
+      "local_path": "data/reference/chr20.GRCh38.fa.fai",
+      "size_bytes": 23,
+      "sha256": "295950bb320e5f27b37360000d77303187e6399bf8e7705aa26fd4a1c88ba115",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "gene_region_CHRNA4",
+      "local_path": "data/regions/per_gene/CHRNA4.bed",
+      "size_bytes": 168,
+      "sha256": "25f0e2cdc25b6f8d3274a3b78284ac83504d22feeccaffe6a6876255bb1e5aaa",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "gene_region_EEF1A2",
+      "local_path": "data/regions/per_gene/EEF1A2.bed",
+      "size_bytes": 48,
+      "sha256": "ac56e0a22c956ae53f45f8e950ced2708438a52f16a84f9e77b114dba24f4714",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "gene_region_MYT1",
+      "local_path": "data/regions/per_gene/MYT1.bed",
+      "size_bytes": 192,
+      "sha256": "1c59856c0c17891e60c73b1bf7a5be8b926336002a24dd1fe94814053c955563",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "gene_region_PLTP",
+      "local_path": "data/regions/per_gene/PLTP.bed",
+      "size_bytes": 48,
+      "sha256": "138eda6cffbd52b2271ba4f9e53387339297828f826f59dbdfbb5b16a3948410",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "gene_region_PTK6",
+      "local_path": "data/regions/per_gene/PTK6.bed",
+      "size_bytes": 48,
+      "sha256": "a70119144355fbb4472d50f79c071b892d31a9113cdc431c1179eb62f80a37af",
+      "status": "derived_local_file"
+    },
+    {
+      "id": "gene_region_SEMG1",
+      "local_path": "data/regions/per_gene/SEMG1.bed",
+      "size_bytes": 48,
+      "sha256": "5e604fddf946f35b0fdf2028f2c88edd3177026a8b90ea130e83c71658e26ad6",
+      "status": "derived_local_file"
+    }
+  ],
+  "notes": [
+    "A local SHA-256 identifies bytes; it does not verify origin.",
+    "Null source URLs are unresolved, not verified download recipes.",
+    "Derived-file identities do not establish their generation recipe.",
+    "This inventories current inputs, not a complete clean rebuild."
+  ]
+}

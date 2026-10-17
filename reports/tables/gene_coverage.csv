@@ -1,0 +1,8 @@
+gene,chromosome,source_span_bp,evaluable_bp,coverage_fraction,status
+SEMG1,chr20,2735,2237,0.8179159049360146,evaluable_region
+PLTP,chr20,13534,12996,0.9602482636323334,evaluable_region
+CHRNA4,chr20,35178,32032,0.9105691056910569,evaluable_region
+EEF1A2,chr20,11171,9676,0.866171336496285,evaluable_region
+PTK6,chr20,9375,8800,0.9386666666666666,evaluable_region
+OPRL1,chr20,20561,0,0.0,no_evaluable_region
+MYT1,chr20,139859,123082,0.8800434723542997,evaluable_region
