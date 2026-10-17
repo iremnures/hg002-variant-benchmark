@@ -129,3 +129,10 @@ On altı test de yerel çalışmada geçti. Bu, bütün VCF gösterimlerini
 kapsayan eksiksiz bir test paketi değildir.
 
 Ek girdi hazırlama testleri, yanlış dosya kimliğinin reddini, güvenli kaydetmeyi, referans biçimini ve tekrar çalıştırmayı yapay dosyalarla sınar.
+
+## Lisans ve dış kaynaklar
+
+Projeye ait özgün kod ve belgeler [MIT lisansı](LICENSE) kapsamındadır.
+Dış kaynaklı veriler, korunan kaynak belgeler ve harici yazılımlar
+bu lisansın kapsamı dışındadır.
+Ayrıntılar için [dış kaynak açıklamalarına](THIRD_PARTY_NOTICES.md) bakın.

@@ -171,3 +171,10 @@ All sixteen passed in the observed local run. This is a focused test suite,
 not exhaustive validation of every supported VCF representation.
 
 Acquisition tests also cover checksum rejection, protected installation, reference formatting and repeated preparation using offline fixtures.
+
+## License and third-party material
+
+Original project code and documentation are available under the
+[MIT license](LICENSE). Third-party data, retained upstream documents
+and external software are outside that license's scope.
+See [third-party notices](THIRD_PARTY_NOTICES.md).
