@@ -1,5 +1,7 @@
 # HG002 Küçük Varyant Benchmark Projesi
 
+[![Tests](https://github.com/iremnures/hg002-variant-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/iremnures/hg002-variant-benchmark/actions/workflows/tests.yml)
+
 **Hazır DeepVariant ve GATK çağrılarını karşılaştıran, gen ve kayıt
 düzeyinde hata analizi içeren yeniden üretilebilir bir iş akışı.**
 

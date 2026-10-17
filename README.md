@@ -1,5 +1,7 @@
 # HG002 Small-Variant Benchmarking in Challenging Gene Regions
 
+[![Tests](https://github.com/iremnures/hg002-variant-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/iremnures/hg002-variant-benchmark/actions/workflows/tests.yml)
+
 **A reproducible, gene-focused evaluation of published DeepVariant and
 GATK call sets, with record-level error analysis.**
 
